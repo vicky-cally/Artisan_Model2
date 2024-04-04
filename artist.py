@@ -13,7 +13,7 @@ def filter_artisans(location, lga, category,scheduling_preference,active_status,
 
     # If scheduling preference is 'On-demand', additionally filter based on 'On-Demand' preference
     if scheduling_preference == 'On-demand':
-        filtered_data = filtered_data[filtered_data['Scheduling_Preference'] == 'On-Demand']
+        filtered_data = filtered_data[filtered_data['Scheduling Preference'] == 'On-Demand']
 
     # Check if filtered_data is empty
     if filtered_data.empty:
