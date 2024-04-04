@@ -64,7 +64,7 @@ def main():
               "Bomadi", "Burutu", "Ughelli South", "Ughelli North", "Ethiope West", "Ethiope East", "Sapele", "Okpe", "Warri North", "Warri South",
               "Uvwie", "Udu", "Warri Central", "Ukwani", "Oshimili North", "Patani"],
     "Ebonyi": ["Edda", "Afikpo", "Onicha", "Ohaozara", "Abakaliki", "Ishielu", "lkwo", "Ezza", "Ezza South", "Ohaukwu", "Ebonyi", "Ivo"],
-    "Enugu": ["Enugu South,", "Igbo-Eze South", "Enugu North", "Nkanu", "Udi Agwu", "Oji-River", "Ezeagu", "IgboEze North", "Isi-Uzo", "Nsukka",
+    "Enugu": ["Enugu South, "Igbo-Eze South", "Enugu North", "Nkanu", "Udi Agwu", "Oji-River", "Ezeagu", "IgboEze North", "Isi-Uzo", "Nsukka",
               "Igbo-Ekiti", "Uzo-Uwani", "Enugu East", "Aninri", "Nkanu East", "Udenu."],
     "Edo": ["Esan North-East", "Esan Central", "Esan West", "Egor", "Ukpoba", "Central", "Etsako Central", "Igueben", "Oredo", "Ovia SouthWest",
             "Ovia South-East", "Orhionwon", "Uhunmwonde", "Etsako East", "Esan South-East"],
