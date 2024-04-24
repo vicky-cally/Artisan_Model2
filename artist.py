@@ -12,7 +12,7 @@ def filter_artisans(location, lga, category,scheduling_preference,active_status,
                        (df['Verification Status'] == verification_status)]
 
     # If scheduling preference is 'On-demand', additionally filter based on 'On-Demand' preference
-    if scheduling_preference == 'On-demand':
+    if scheduling_preference == 'On-Demand':
         filtered_data = filtered_data[filtered_data['Scheduling Preference'] == 'On-Demand']
 
     # Check if filtered_data is empty
@@ -131,7 +131,7 @@ def main():
                                                            'Hairdresser', 'Caterer', 'Graphic Designer', 'Photographer', 'Event Planner', 'Gardener',
                                                            'Interior Decorator', 'Furniture Maker', 'Shoe Cobbler', 'Barber', 'Makeup Artist', 'Dressmaker'])
 
-    scheduling_preference = st.selectbox("Scheduling Preference", [''] + ['Advance', 'On-demand'])
+    scheduling_preference = st.selectbox("Scheduling Preference", [''] + ['Advance', 'On-Demand'])
     active_status = st.selectbox("Active Status", [''] + ['Active', 'Away', 'Offline'])
     verification_status = st.selectbox("Verification Status", [''] + ['Identity Verified', 'Skill Verified'])
 
